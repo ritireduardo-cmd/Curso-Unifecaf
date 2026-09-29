@@ -10,7 +10,7 @@ test('calcularTotalCarrinho deve retornar o total correto do carrinho', () => {
 
     const total = calcularTotalCarrinho(itens);
     
-    assert.strictEqual(total, 130); // 50*2 + 30*1 = 130
+    assert.strictEqual(total, 130);
 });
 
 test('carrinho vazio deve retornar 0', () => {
